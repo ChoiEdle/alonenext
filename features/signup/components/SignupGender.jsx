@@ -1,4 +1,4 @@
-export function SignupGender({ form, refs, handleChangeForm }) {
+export default function SignupGender({ form, refs, handleChangeForm }) {
   return (
     <li>
       <ul className="part gender">

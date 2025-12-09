@@ -1,5 +1,5 @@
 // features/review/components/ReviewSearch.jsx
-export function ReviewSearch({ search, setSearch }) {
+export default function ReviewSearch({ search, setSearch }) {
   return (
     <div className="search-box">
       <input

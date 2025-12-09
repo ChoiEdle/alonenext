@@ -1,5 +1,5 @@
 // pages/myPage/OrderPagination.jsx
-export function OrderPagination({
+export default function OrderPagination({
   currentPage,
   totalPages,
   nextPage,

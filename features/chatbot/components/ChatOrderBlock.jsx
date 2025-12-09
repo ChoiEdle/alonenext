@@ -1,4 +1,4 @@
-export function ChatOrderBlock({ order }) {
+export default function ChatOrderBlock({ order }) {
   const statusLabel = (status) => {
     switch (status) {
       case "READY": return "상품 준비중";

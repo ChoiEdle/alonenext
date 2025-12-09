@@ -2,7 +2,7 @@
 import { useSelector } from "react-redux";
 import { useMemo, useState } from "react";
 
-export function useReviewList() {
+export default function useReviewList() {
   const reviewsAll = useSelector((state) => state.product.productReviewList);
   const [search, setSearch] = useState("");
 

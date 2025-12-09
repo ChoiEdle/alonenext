@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-export function RecipeCard({ recipe }) {
+export default function RecipeCard({ recipe }) {
   const navigate = useNavigate();
 
   return (

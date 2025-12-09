@@ -1,4 +1,4 @@
-export function Detail({images}) {
+export default function Detail({images}) {
   return (
     <div>
       <h2 style={ {marginBottom: "10px"}}>상세 설명</h2>

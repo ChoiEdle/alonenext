@@ -2,7 +2,7 @@
 import { useRef } from "react";
 import { useKakaoMap } from "@/app/../hooks/useKakaoMap";
 
-export function DeliveryMap() {
+export default function DeliveryMap() {
   const mapRef = useRef(null);
   useKakaoMap(mapRef);
 

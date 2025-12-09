@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./advertise.css";
 
-export function AdvertiseList({ ads, interval = 3000, random = false }) {
+export default function AdvertiseList({ ads, interval = 3000, random = false }) {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {

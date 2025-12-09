@@ -1,6 +1,6 @@
 // src/utils/getUserIdFromToken.js
 
-export function getUserIdFromToken() {
+export default function getUserIdFromToken() {
   const stored = localStorage.getItem("loginInfo");
   if (!stored) return null;
 

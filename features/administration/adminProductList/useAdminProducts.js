@@ -5,7 +5,7 @@ import { parseJwt } from "@/features/auth/parseJwt";
 import { setProductListAPI, delProductData } from "@/features/product/productAPI";
 import Swal from "sweetalert2";
 
-export function useAdminProducts() {
+export default function useAdminProducts() {
   const dispatch = useDispatch();
   const productList = useSelector((state) => state.product.productList);
 

@@ -1,4 +1,4 @@
-export function SignupId({ form, refs, handleChangeForm, handleIdCheck }) {
+export default function SignupId({ form, refs, handleChangeForm, handleIdCheck }) {
   return (
     <li>
       <ul className="part id">

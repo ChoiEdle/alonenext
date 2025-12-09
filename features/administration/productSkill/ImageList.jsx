@@ -1,4 +1,4 @@
-export function ImageList({imgList, className}) {
+export default function ImageList({imgList, className}) {
     return (
         <ul className={className}>
             {imgList && imgList.map( img => 

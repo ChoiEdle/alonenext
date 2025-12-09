@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import { MainCategory } from "@/features/category/components/MainCategory.jsx";
+import MainCategory from "@/features/category/components/MainCategory.jsx";
 import useCategoryStore from "@/features/category/categoryStore";
 
 export function CategoryMenu() {

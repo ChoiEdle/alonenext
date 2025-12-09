@@ -1,5 +1,5 @@
 // src/features/delivery/components/DeliveryTable.jsx
-export function DeliveryTable() {
+export default function DeliveryTable() {
   return (
     <section className="delivery-table">
       <h2>주문부터 배송까지 한눈에 보기</h2>

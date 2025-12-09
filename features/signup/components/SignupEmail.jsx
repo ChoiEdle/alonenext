@@ -1,4 +1,4 @@
-export function SignupEmail({ form, refs, handleChangeForm }) {
+export default function SignupEmail({ form, refs, handleChangeForm }) {
   return (
     <li>
       <ul className="part email">

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { api } from "@/shared/lib/axios";
 
-export function useAdvertiseList() {
+export default function useAdvertiseList() {
   const [advertiseList, setAdvertiseList] = useState([]);
 
   useEffect(() => {

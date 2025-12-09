@@ -1,7 +1,7 @@
 // src/features/auth/components/LoginForm.jsx
 import { FaUser, FaLock } from "react-icons/fa";
 
-export function LoginForm({
+export default function LoginForm({
   formData,
   errors,
   idRef,

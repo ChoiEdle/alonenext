@@ -1,4 +1,4 @@
-export function SignupTerms({
+export default function SignupTerms({
   agree,
   termList,
   hoveredId,

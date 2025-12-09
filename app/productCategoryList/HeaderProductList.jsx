@@ -17,7 +17,7 @@
 // import { AdvertiseList } from "@/shared/ui/advertise/AdvertiseList";
 // import { RightAdBanner } from "@/shared/ui/advertise/RightAdvBanner";
 
-// export function HeaderProductList() {
+// export default function HeaderProductList() {
 //   const { id } = useParams();
 //   const productList = useSelector((state) => state.product.productList);
 //   const [filteredProducts, setFilteredProducts] = useState([]);
@@ -200,7 +200,7 @@ import "../../styles/components/filter.scss";
 import { useAdvertise } from "@/shared/hooks/userAdvertise";
 import { useHeaderProductList } from "@/features/productCategoryList/hooks/useHeaderProductList";
 
-export function HeaderProductList() {
+export default function HeaderProductList() {
   const { id } = useParams();
   const { bannerAds, inlineAds } = useAdvertise();
 

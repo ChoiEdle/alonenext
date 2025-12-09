@@ -2,7 +2,7 @@ import React from "react";
 import { ImageUpload } from "@/app/./ImageUpload";
 import "./ImageUpload.scss";
 
-export function ImageUploadList({ onFileSelect, imageNames, existingImages}) {
+export default function ImageUploadList({ onFileSelect, imageNames, existingImages}) {
     return (
         <div className = "full-width">
         { imageNames &&

@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { api } from "@/shared/lib/axios";
 import '../../pages/login/login.scss';
 
-export function FindUserId() {
+export default function FindUserId() {
   const navigate = useNavigate();
   const [query, setQuery] = useState('');
   const [result, setResult] = useState('');

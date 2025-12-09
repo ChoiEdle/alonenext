@@ -1,4 +1,4 @@
-export function SignupPhone({ form, refs, handleChangeForm }) {
+export default function SignupPhone({ form, refs, handleChangeForm }) {
   return (
     <li>
       <ul className="part phone">

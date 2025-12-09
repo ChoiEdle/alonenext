@@ -9,7 +9,7 @@ import { parseJwt } from "@/features/auth/parseJwt";
 import { setProductAPI } from "@/features/product/productAPI";
 import { saveViewLog } from "@/app/../api/productDetailAPI";
 
-export function useProductDetail() {
+export default function useProductDetail() {
   const { id } = useParams();
   const dispatch = useDispatch();
   const navigate = useNavigate();

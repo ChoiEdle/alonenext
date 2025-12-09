@@ -5,7 +5,7 @@
 // import { setProductData } from "@/features/product/productAPI.js";
 // import { ProductForm } from '@/app/./ProductForm';
 
-// export function ProductAdd() {
+// export default function ProductAdd() {
 //   const navigate = useNavigate();
 
 //   // form초기 설정
@@ -68,7 +68,7 @@ import React from "react";
 import { useProductAdd } from "@/features/administration/productSkill/productAdd/useProductAdd";
 import { ProductForm } from "@/features/administration/productSkill/productAdd/components/ProductForm";
 
-export function ProductAdd() {
+export default function ProductAdd() {
   const {
     initialFormData,
     initialExistingImages,

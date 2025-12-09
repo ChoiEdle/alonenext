@@ -1,5 +1,5 @@
 // features/cart/components/CartSummary.jsx
-export function CartSummary({ totalPrice, totalDcPrice, shippingFee, goCheckout }) {
+export default function CartSummary({ totalPrice, totalDcPrice, shippingFee, goCheckout }) {
   const finalPrice = totalPrice - totalDcPrice + shippingFee;
 
   return (

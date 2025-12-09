@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import { userAPI } from "@/app/../api/userAPI";
 
-export function useUserDetail() {
+export default function useUserDetail() {
   const [user, setUser] = useState(null);
   const [userId, setUserId] = useState(null);
 

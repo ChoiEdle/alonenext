@@ -5,7 +5,7 @@ import { parseJwt } from "@/features/auth/parseJwt";
 import { couponAPI } from "@/app/../api/couponAPI";
 import { useNavigate, useLocation } from "react-router-dom";
 
-export function useCoupon() {
+export default function useCoupon() {
   const navigate = useNavigate();
   const location = useLocation();
 

@@ -1,4 +1,4 @@
-export function SignupSubmit() {
+export default function SignupSubmit() {
   return (
     <li>
       <button className="btn-submit" type="submit">

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export function RelatedProductList({ relatedProducts }) {
+export default function RelatedProductList({ relatedProducts }) {
   if (!relatedProducts.length) return null;
 
   return (

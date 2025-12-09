@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 import { parseJwt } from "@/features/auth/parseJwt";
 import { orderAPI } from "@/app/../api/orderAPI";
 
-export function useMyOrders(itemsPerPage = 4) {
+export default function useMyOrders(itemsPerPage = 4) {
   const [orders, setOrders] = useState([]);
   const [userId, setUserId] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);

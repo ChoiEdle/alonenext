@@ -5,7 +5,7 @@
 // import { setProductData } from '@/features/product/productAPI';
 // import { ProductForm } from '@/features/administration/productSkill/productAdd/components/ProductForm';
 
-// export function ProductUpdate() {
+// export default function ProductUpdate() {
 //   const navigate = useNavigate();
 //   // 기존 데이터 취득
 //   const { item } = useLocation().state;
@@ -77,7 +77,7 @@ import { ProductForm } from "@/features/administration/productSkill/productAdd/c
 import { useProductUpdate } from "@/features/administration/productSkill/productUpdate/useProductUpdate";
 import React from "react";
 
-export function ProductUpdate() {
+export default function ProductUpdate() {
   const { item, initialFormData, existingImages, handleSubmit } = useProductUpdate();
 
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { RecipeCard } from "@/app/./RecipeCard";
 
-export function RecipeList({ recipeList }) {
+export default function RecipeList({ recipeList }) {
   return (
     <div className="recipe-grid">
       {recipeList.map((recipe) => (

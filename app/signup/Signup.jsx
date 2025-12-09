@@ -14,7 +14,7 @@ import { useSignupForm } from "@/features/signup/hooks/useSignupForm";
 import { useSignupAgree } from "@/features/signup/hooks/useSignupAgree";
 import './Signup.scss';
 
-export function Signup() {
+export default function Signup() {
   const {
     form,
     refs,

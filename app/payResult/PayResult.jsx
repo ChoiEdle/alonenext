@@ -1,6 +1,6 @@
 import { useSearchParams } from "react-router-dom";
 
-export function PayResult() {
+export default function PayResult() {
   const [searchParams] = useSearchParams();
   const orderId = searchParams.get("orderId");
   const status = searchParams.get("status");

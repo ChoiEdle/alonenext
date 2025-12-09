@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { parseJwt } from "@/features/auth/parseJwt";
 import { removeCart, showCart, updateCart } from "@/features/cart/cartAPI";
 
-export function useCart() {
+export default function useCart() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 

@@ -5,7 +5,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import "./NoticeList.scss";
 import { setNoticeListAPI } from "@/features/notice/noticeAPI";
 
-export function NoticeList() {
+export default function NoticeList() {
   const noticeList = useSelector((state) => state.notice.noticeList);
   const dispatch = useDispatch();
   const [currentPage, setCurrentPage] = useState(1);

@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import "./ReviewList.scss";
 
-export function ReviewList({ id }) {
+export default function ReviewList({ id }) {
   const reviewsAll = useSelector((state) => state.product.productReviewList);
   const [reviews, setReviews] = useState([]);
   const [reviewImages, setReviewImages] = useState([]);

@@ -7,7 +7,7 @@ import { addProductQnA } from "@/features/product/productAPI";
 import "./QnA.scss";
 import AddQnA from './AddQnA';
 
-export function QnA({id, product}) {
+export default function QnA({id, product}) {
   const qnaAll = useSelector((state) => state.product.productQnAList);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 5;

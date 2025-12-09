@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./advertise.css";
 
-export function RightAdBanner({ ads, interval = 3000, random = false }) {
+export default function RightAdBanner({ ads, interval = 3000, random = false }) {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {

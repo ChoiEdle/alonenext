@@ -14,7 +14,7 @@ import { Link,Outlet } from "react-router-dom";
 // import { MyCoupon } from "@/app/./MyCoupon";
 // import { UpdateUserDetail } from "@/app/./UpdateUserDetail";
 
-export function MyPage() {
+export default function MyPage() {
   
   const [userId, setUserId] = useState(null);
 

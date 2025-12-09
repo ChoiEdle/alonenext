@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./ImageUpload.scss";
 
-export function ImageUpload({ onFileSelect, idx, text, existingImage }) {
+export default function ImageUpload({ onFileSelect, idx, text, existingImage }) {
     const [image, setImage] = useState(null);
     useEffect(() => {
       setImage(existingImage || null);

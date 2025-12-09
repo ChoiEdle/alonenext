@@ -7,7 +7,7 @@ import {
 } from "@/features/product/productAPI";
 import { setCategoryListAPI } from "@/features/category/categoryAPI";
 
-export function useHomeInit() {
+export default function useHomeInit() {
   const dispatch = useDispatch();
 
   useEffect(() => {

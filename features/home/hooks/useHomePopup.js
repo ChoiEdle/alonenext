@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function useHomePopup() {
+export default function useHomePopup() {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {

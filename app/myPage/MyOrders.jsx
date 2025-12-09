@@ -10,7 +10,7 @@
 // import './MyPage.css'
 // import '../administration/AdminLayout.scss'
 
-// export function MyOrders () {
+// export default function MyOrders () {
 //   const [orders, setOrders] = useState([]);
 //   // const [coupons, setCoupons] = useState([]);
 //   // const [loading, setLoading] = useState(true);
@@ -210,7 +210,7 @@ import { OrderPagination } from "@/features/myPage/myOrders/components/OrderPagi
 import { useMyOrders } from "@/features/myPage/myOrders/hooks/useMyOrders";
 
 
-export function MyOrders() {
+export default function MyOrders() {
   const {
     userId,
     currentItems,

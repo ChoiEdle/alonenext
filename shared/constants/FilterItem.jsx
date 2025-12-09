@@ -1,4 +1,4 @@
-export function FilterItem({ label, value, activeFilter, onClick }) {
+export default function FilterItem({ label, value, activeFilter, onClick }) {
   return (
     <li
       className={`item ${activeFilter === value ? "active" : ""}`}

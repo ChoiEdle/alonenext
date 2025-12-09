@@ -1,5 +1,5 @@
 // features/review/components/SummaryCards.jsx
-export function SummaryCards({ summary }) {
+export default function SummaryCards({ summary }) {
   return (
     <div className="summary-cards">
       <div className="summary-card">

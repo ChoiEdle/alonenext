@@ -1,5 +1,5 @@
 // src/features/delivery/components/DeliveryHighlights.jsx
-export function DeliveryHighlights() {
+export default function DeliveryHighlights() {
   return (
     <section className="highlights">
       <h2>샛별이 뜰 때 가장 신선할 때</h2>

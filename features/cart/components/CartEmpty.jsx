@@ -1,5 +1,5 @@
 // features/cart/components/CartEmpty.jsx
-export function CartEmpty() {
+export default function CartEmpty() {
   return (
     <div className="cart-right">
       <div className="cart-empty">

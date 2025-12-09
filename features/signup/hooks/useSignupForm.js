@@ -6,7 +6,7 @@ import { useDaumPostcodePopup } from "react-daum-postcode";
 import { getCheckId, getSignup } from "@/features/auth/authAPI";
 import { validateSignup } from "@/features/signup/SignupValidation";
 
-export function useSignupForm() {
+export default function useSignupForm() {
   const navigate = useNavigate();
   const open = useDaumPostcodePopup("//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js");
 

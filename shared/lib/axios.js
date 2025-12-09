@@ -5,7 +5,7 @@ export const api = axios.create({
   withCredentials: true,
 });
 
-export function setupApiInterceptors() {
+export default function setupApiInterceptors() {
   api.interceptors.request.use((config) => {
     const loginInfo = JSON.parse(localStorage.getItem("loginInfo"));
     if (loginInfo?.accessToken) {

@@ -1,6 +1,6 @@
 import React from "react";
 
-export function ReviewList({ currentItems }) {
+export default function ReviewList({ currentItems }) {
   if (!currentItems.length) return <p>아직 작성된 후기가 없습니다.</p>;
 
   return (

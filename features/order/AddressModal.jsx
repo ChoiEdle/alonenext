@@ -4,7 +4,7 @@ import { parseJwt } from "@/features/auth/parseJwt";
 // shared
 import { api } from '@/shared/lib/axios.js';
 
-export function AddressModal({ onClose, onSelectAddress }) {
+export default function AddressModal({ onClose, onSelectAddress }) {
   const [orders, setOrders] = useState([]);
   const [userId, setUserId] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);

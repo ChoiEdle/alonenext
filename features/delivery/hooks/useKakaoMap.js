@@ -1,7 +1,7 @@
 // src/features/delivery/hooks/useKakaoMap.js
 import { useEffect } from "react";
 
-export function useKakaoMap(mapRef) {
+export default function useKakaoMap(mapRef) {
   useEffect(() => {
     const script = document.createElement("script");
     script.src =

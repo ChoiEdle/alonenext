@@ -6,7 +6,7 @@
 // import { removeCart, showCart, updateCart } from "@/features/cart/cartAPI";
 // import "./Cart.scss";
 
-// export function Cart() {
+// export default function Cart() {
 //     const navigate = useNavigate();
 //     const dispatch = useDispatch();
 //     const cartList = useSelector((state) => state.cart.cartList);
@@ -105,7 +105,7 @@ import { CartEmpty } from "@/features/cart/components/CartEmpty";
 import "./Cart.scss";
 import { useCart } from "@/features/cart/useCart";
 
-export function Cart() {
+export default function Cart() {
   const {
     cartList,
     totalPrice,

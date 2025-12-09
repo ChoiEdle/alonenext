@@ -1,4 +1,4 @@
 // src/features/delivery/components/DeliveryHero.jsx
-export function DeliveryHero() {
+export default function DeliveryHero() {
   return <section className="hero"></section>;
 }

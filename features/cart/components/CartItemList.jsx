@@ -1,7 +1,7 @@
 // features/cart/components/CartItemList.jsx
 import { CartItem } from "@/app/./CartItem";
 
-export function CartItemList({ cartList, decreaseQty, increaseQty, removeItem }) {
+export default function CartItemList({ cartList, decreaseQty, increaseQty, removeItem }) {
   return (
     <div className="cart-left">
       {cartList.map((item) => (

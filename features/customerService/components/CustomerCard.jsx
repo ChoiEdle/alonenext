@@ -1,7 +1,7 @@
 // src/features/customer/components/CustomerCard.jsx
 import React from "react";
 
-export function CustomerCard({ icon, title, children }) {
+export default function CustomerCard({ icon, title, children }) {
   const Icon = icon;
 
   return (

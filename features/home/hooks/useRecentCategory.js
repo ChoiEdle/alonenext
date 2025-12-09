@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { parseJwt } from "@/features/auth/parseJwt";
 import { fetchRecentSubCategory } from "@/features/product/productAPI";
 
-export function useRecentCategory() {
+export default function useRecentCategory() {
   const dispatch = useDispatch();
 
   useEffect(() => {

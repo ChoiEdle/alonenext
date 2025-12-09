@@ -11,7 +11,7 @@
 // import "./AdminProductList.scss";
 // import "../../../styles/components/filter.scss";
 
-// export function AdminProductList() {
+// export default function AdminProductList() {
 //   const productList = useSelector((state) => state.product.productList);
 //   const [filteredProducts, setFilteredProducts] = useState([]);
 //   const [loading, setLoading] = useState(true);
@@ -162,7 +162,7 @@ import ProductGrid from "features/administration/adminProductList/components/Pro
 
 
 
-export function AdminProductList() {
+export default function AdminProductList() {
   const {
     loading,
     activeFilter,

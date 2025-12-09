@@ -1,6 +1,6 @@
 import React from "react";
 
-export function ReviewWriteBox({
+export default function ReviewWriteBox({
   newRating,
   newContent,
   setNewRating,

@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 import { useLocation, useNavigate } from "react-router-dom";
 import { setProductData } from "@/features/product/productAPI";
 
-export function useProductUpdate() {
+export default function useProductUpdate() {
   const navigate = useNavigate();
   const { item } = useLocation().state;
 

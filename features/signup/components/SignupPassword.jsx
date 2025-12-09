@@ -1,4 +1,4 @@
-export function SignupPassword({ form, refs, handleChangeForm }) {
+export default function SignupPassword({ form, refs, handleChangeForm }) {
   return (
     <>
         <li>

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import ProductCard from "shared/ui/productCard/ProductCard";
 
-export function SearchResultList({ filterList }) {
+export default function SearchResultList({ filterList }) {
   if (!filterList || filterList.length === 0)
     return <p>검색 결과가 없습니다.</p>;
 

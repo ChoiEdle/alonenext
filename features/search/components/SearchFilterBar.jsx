@@ -1,7 +1,7 @@
 import React from "react";
 import { FilterItem } from "@/shared/constants/FilterItem";
 
-export function SearchFilterBar({ activeFilter, handleFilter }) {
+export default function SearchFilterBar({ activeFilter, handleFilter }) {
   const filterLabel = [
     { label: "최신순", value: "new" },
     { label: "높은가격순", value: "priceHigh" },

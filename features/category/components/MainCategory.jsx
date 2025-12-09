@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { SubCategory } from "@/features/category/components/SubCategory.jsx";
+import SubCategory from "@/features/category/components/SubCategory.jsx";
 
-export function MainCategory({ main }) {
+export default function MainCategory({ main }) {
   const navigate = useNavigate();
 
   const goMain = () => {

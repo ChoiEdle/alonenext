@@ -7,7 +7,7 @@
 // import { ProductValidateCheck } from '@/features/administration/productSkill/ProductValidateCheck';
 // import "./ProductAdd.css";
 
-// export function ProductForm({ mode, initialFormData, existingImages, onSubmit, initialCount, initialPrice}) {
+// export default function ProductForm({ mode, initialFormData, existingImages, onSubmit, initialCount, initialPrice}) {
 //   const dispatch = useDispatch();
 
 //   // 배송정보리스트
@@ -212,7 +212,7 @@ import { ImageUploadList } from "@/features/administration/productSkill/ImageUpl
 import "./ProductAdd.css";
 import { useProductForm } from "@/features/administration/productSkill/productAdd/useProductForm";
 
-export function ProductForm({
+export default function ProductForm({
   mode,
   initialFormData,
   existingImages,

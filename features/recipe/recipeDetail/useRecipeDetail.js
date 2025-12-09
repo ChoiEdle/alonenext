@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 import { useSelector } from "react-redux";
 import { getRecipeDetailAPI, postRecipeReviewAPI } from "@/app/utils/recipeAPI";
 
-export function useRecipeDetail(id) {
+export default function useRecipeDetail(id) {
   const [recipe, setRecipe] = useState(null);
   const [reviews, setReviews] = useState([]);
   const productList = useSelector((state) => state.product.productList);

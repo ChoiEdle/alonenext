@@ -6,7 +6,7 @@
 // // shared
 // import { api } from '@/shared/lib/axios.js';
 
-// export function Coupon() {
+// export default function Coupon() {
 //   const [userId, setUserId] = useState(null);
 //   const [issuedCoupons, setIssuedCoupons] = useState([]);
 //   const navigate = useNavigate();
@@ -183,7 +183,7 @@
 import { CouponButtons } from "@/features/coupon/components/CouponButtons";
 import { useCoupon } from "@/features/coupon/hooks/useCoupon";
 
-export function Coupon() {
+export default function Coupon() {
   const { userId, couponList, issuedCoupons, issueCoupon } = useCoupon();
 
   return (

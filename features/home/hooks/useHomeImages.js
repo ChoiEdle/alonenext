@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { api } from "@/shared/lib/axios";
 import { useAutoSlider } from "@/shared/hooks/useAutoSlider";
 
-export function useHomeImages() {
+export default function useHomeImages() {
   const [images, setImages] = useState([]);
 
   useEffect(() => {

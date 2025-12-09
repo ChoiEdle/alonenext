@@ -3,7 +3,7 @@
 // import { api } from "@/shared/lib/axios";
 // import './UpdateUserDetail.css';
 
-// export function UpdateUserDetail() {
+// export default function UpdateUserDetail() {
 //   const [user, setUser] = useState(null); 
 //   const [userId, setUserId] = useState(null);
 
@@ -150,7 +150,7 @@ import "./UpdateUserDetail.css";
 import "../administration/AdminLayout.scss";
 import { useUserDetail } from "@/features/myPage/userDetail/hooks/useUserDetail";
 
-export function UpdateUserDetail() {
+export default function UpdateUserDetail() {
   const { user, handleEditField } = useUserDetail();
 
   if (!user) return <p>⏳ 불러오는 중...</p>;

@@ -1,6 +1,6 @@
 import './Return.scss';
 
-export function Return() {
+export default function Return() {
   return (
     <section className="return-policy">
       <h2>반품·교환 및 정책 안내</h2>

@@ -3,7 +3,7 @@ import { IoIosRadioButtonOn } from "react-icons/io";
 import { SlideDots } from "@/app/./SlideDots";
 import "./SlideContainer.scss";
 
-export function SlideContainer({ images, index, setIndex }) {
+export default function SlideContainer({ images, index, setIndex }) {
   return (
     <div className="slide-container">
       {images &&

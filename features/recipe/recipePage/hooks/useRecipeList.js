@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getRecipeListAPI } from "@/app/utils/recipeAPI";
 
-export function useRecipeList(selectedSub) {
+export default function useRecipeList(selectedSub) {
   const [recipeList, setRecipeList] = useState([]);
 
   useEffect(() => {

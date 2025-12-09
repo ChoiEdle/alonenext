@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useLocation, useParams } from "react-router-dom";
 
-export function useSearchResult() {
+export default function useSearchResult() {
   const { keyword } = useParams();
   const location = useLocation();
 

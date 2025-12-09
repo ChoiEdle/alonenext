@@ -17,7 +17,7 @@ export const validateFormCheck = ({ idRef, pwdRef, setErrors, errors }) => {
 /**
  * Shoppy 회원가입 폼 체크
  */
-export function validateSignupFormCheck({refs, setErrors}) {
+export default function validateSignupFormCheck({refs, setErrors}) {
     if(refs.userIdRef.current.value === "") {
         setErrors({userId: "아이디를 입력해주세요"});
         refs.userIdRef.current.focus();

@@ -1,6 +1,6 @@
 // pages/myPage/MyCouponList.jsx
 
-export function MyCouponList({ coupons, onDelete }) {
+export default function MyCouponList({ coupons, onDelete }) {
   if (!coupons.length) {
     return <p>받은 쿠폰이 없습니다.</p>;
   }

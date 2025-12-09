@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { api } from "@/shared/lib/axios";
 
-export function usePricingData() {
+export default function usePricingData() {
   const [data, setData] = useState([]);
 
   const load = async () => {

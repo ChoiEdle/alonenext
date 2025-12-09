@@ -1,7 +1,7 @@
 // import { useEffect, useRef } from "react";
 // import "./Delivery.scss";
 
-// export function Delivery() {
+// export default function Delivery() {
 //   const mapRef = useRef(null);
 
 //   useEffect(() => {

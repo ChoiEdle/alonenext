@@ -8,7 +8,7 @@
 // import '../administration/AdminLayout.scss'
 
 
-// export function MyCoupon () {
+// export default function MyCoupon () {
 //     const [coupons, setCoupons] = useState([]);
 //     const [loading, setLoading] = useState(true);
 //     const [userId, setUserId] = useState(null);
@@ -111,7 +111,7 @@ import '../administration/AdminLayout.scss';
 import { useMyCoupon } from '@/features/myPage/myCoupon/hooks/useMyCoupon';
 import { MyCouponList } from '@/features/myPage/myCoupon/components/MyCouponList';
 
-export function MyCoupon() {
+export default function MyCoupon() {
   const { userId, coupons, loading, deleteCoupon } = useMyCoupon();
 
   if (!userId) {

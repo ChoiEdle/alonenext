@@ -15,7 +15,7 @@
 // import { ReviewList } from '@/features/productDetail/review/ReviewList';
 // import "./ProductDetail.scss";
 
-// export function ProductDetail() {
+// export default function ProductDetail() {
 //   const { id } = useParams(); // 선택한 상품의 상품번호(primarykey)
 //   const [isFirstEffectComplete, setIsFirstEffectComplete] = useState(false);
 //   const [count, setCount] = useState(1); // 수량 관리
@@ -346,7 +346,7 @@ import { Return } from "@/features/productDetail/return/Return";
 
 import { useProductDetail } from "@/features/productDetail/hooks/useProductDetail";
 
-export function ProductDetail() {
+export default function ProductDetail() {
   const { id } = useParams();
 
   const {

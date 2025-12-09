@@ -6,7 +6,7 @@ import "./Layout.scss";
 import FloatingChatBot from "@/layouts/floating/FloatingChatBot";
 import Footer from "@/layouts/Footer/Footer";
 
-export function Layout() {
+export default function Layout() {
   return (
     <div className="layout">
       <Header />

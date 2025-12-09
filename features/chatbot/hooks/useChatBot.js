@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { parseJwt } from "@/features/auth/parseJwt";
 import { askChatbotAPI } from "@/features/chatbot/api/chatbotAPI";
 
-export function useChatBot() {
+export default function useChatBot() {
   const [messages, setMessages] = useState([
     { from: "bot", type: "text", text: "안녕하세요! 무엇을 도와드릴까요? 😊" }
   ]);

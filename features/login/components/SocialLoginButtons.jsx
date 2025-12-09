@@ -1,5 +1,5 @@
 // src/features/auth/components/SocialLoginButtons.jsx
-export function SocialLoginButtons() {
+export default function SocialLoginButtons() {
   const handleNaverLogin = () =>
     (window.location.href = "http://localhost:8080/oauth2/authorization/naver");
 

@@ -1,4 +1,4 @@
-export function SignupAgreement({ agree, termList, handleAllAgree, handleAgreeChange, setHoveredId }) {
+export default function SignupAgreement({ agree, termList, handleAllAgree, handleAgreeChange, setHoveredId }) {
   return (
     <li>
       <ul className="part agree">

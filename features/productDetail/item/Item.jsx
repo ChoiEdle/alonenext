@@ -1,4 +1,4 @@
-export function Item({images}) {
+export default function Item({images}) {
   return (
     <div>
       <h2 style={ {marginBottom: "10px"}}>상품 정보</h2>

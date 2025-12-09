@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { api } from "@/shared/lib/axios.js";
 
-export function useSignupAgree() {
+export default function useSignupAgree() {
   const [hoveredId, setHoveredId] = useState(null);
   const [termList, setTermList] = useState([]);
 

@@ -1,5 +1,5 @@
 // features/cart/components/CartItem.jsx
-export function CartItem({ item, decreaseQty, increaseQty, removeItem }) {
+export default function CartItem({ item, decreaseQty, increaseQty, removeItem }) {
   return (
     <div className='cart-item'>
       <div className="cart-image-container">

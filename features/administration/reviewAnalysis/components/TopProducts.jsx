@@ -1,5 +1,5 @@
 // features/review/components/TopProducts.jsx
-export function TopProducts({ top }) {
+export default function TopProducts({ top }) {
   return (
     <div className="top-products-box">
       <h3>🔥 리뷰 많은 인기 상품 TOP 5</h3>

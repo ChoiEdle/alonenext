@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
 import { setProductData } from "@/features/product/productAPI.js";
 
-export function useProductAdd() {
+export default function useProductAdd() {
   const navigate = useNavigate();
 
   // form 초기 설정

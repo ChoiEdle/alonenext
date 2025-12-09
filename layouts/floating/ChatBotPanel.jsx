@@ -1,8 +1,8 @@
 
 import React from "react";
-import { ChatMessage } from "@/features/chatbot/components/ChatMessage";
-import { ChatOrderBlock } from "@/features/chatbot/components/ChatOrderBlock";
-import { useChatBot } from "@/features/chatbot/hooks/useChatBot";
+import ChatMessage from "@/features/chatbot/components/ChatMessage";
+import ChatOrderBlock from "@/features/chatbot/components/ChatOrderBlock";
+import useChatBot from "@/features/chatbot/hooks/useChatBot";
 import './ChatBotPanel.scss'
 
 export default function ChatBotPanel({ onClose }) {

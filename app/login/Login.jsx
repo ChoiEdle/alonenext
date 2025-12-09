@@ -1,12 +1,10 @@
-"use clinet"
 import { useNavigate, useLocation, Link } from "react-router-dom";
 import "./login.scss";
 import { useLogin } from "@/features/login/hooks/useLogin";
 import { LoginForm } from "@/features/login/components/LoginForm";
 import { SocialLoginButtons } from "@/features/login/components/SocialLoginButtons";
 
-
-export function Login() {
+export default function Login() {
   const navigate = useNavigate();
   const location = useLocation();
 

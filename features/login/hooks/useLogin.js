@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import { useDispatch } from "react-redux";
 import Swal from "sweetalert2";
 
-export function useLogin(navigate, from) {
+export default function useLogin(navigate, from) {
   const dispatch = useDispatch();
   const idRef = useRef(null);
   const pwdRef = useRef(null);

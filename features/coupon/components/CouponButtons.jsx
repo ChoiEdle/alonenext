@@ -1,6 +1,6 @@
 // pages/coupon/CouponList.jsx
 
-export function CouponButtons({ userId, couponList, issuedCoupons, onIssue }) {
+export default function CouponButtons({ userId, couponList, issuedCoupons, onIssue }) {
   return (
     <div style={{ textAlign: "center", padding: "30px 0" }}>
       <ul style={{ listStyle: "none", padding: 0 }}>

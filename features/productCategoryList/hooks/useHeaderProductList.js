@@ -14,7 +14,7 @@ import {
 import { headerProductAPI } from "@/app/../api/headerProductAPI";
 import { setProductListAPI } from "@/features/product/productAPI";
 
-export function useHeaderProductList(id) {
+export default function useHeaderProductList(id) {
   const dispatch = useDispatch();
   const productList = useSelector((state) => state.product.productList);
 

@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 import { parseJwt } from "@/features/auth/parseJwt";
 import { couponAPI } from "@/app/../api/couponAPI";
 
-export function useMyCoupon() {
+export default function useMyCoupon() {
   const [coupons, setCoupons] = useState([]);
   const [loading, setLoading] = useState(true);
   const [userId, setUserId] = useState(null);

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export function SignupPlus({ form, refs, handleChangeForm, handleIdCheck }) {
+export default function SignupPlus({ form, refs, handleChangeForm, handleIdCheck }) {
   const [isPlusAfter, setIsPlusAfter] = useState(false);
 
   return (

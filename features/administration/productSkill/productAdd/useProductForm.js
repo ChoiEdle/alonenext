@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 import { setDeliveryAPI } from "@/features/delivery/deliveryAPI";
 import { ProductValidateCheck } from "@/features/administration/productSkill/ProductValidateCheck";
 
-export function useProductForm({
+export default function useProductForm({
   initialFormData,
   initialCount,
   initialPrice,

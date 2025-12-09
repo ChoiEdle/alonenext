@@ -1,6 +1,6 @@
 // pages/myPage/OrderCard.jsx
 
-export function OrderCard({ order, navigate, handleAddCart, onDelete }) {
+export default function OrderCard({ order, navigate, handleAddCart, onDelete }) {
   return (
     <div className="mypage-card">
       <div className="mypage-body">

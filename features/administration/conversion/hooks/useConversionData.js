@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { getConversionRates } from "@/app/../analyticsApi";
 
-export function useConversionData() {
+export default function useConversionData() {
   const [data, setData] = useState([]);
 
   const load = async () => {

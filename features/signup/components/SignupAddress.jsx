@@ -1,4 +1,4 @@
-export function SignupAddress({
+export default function SignupAddress({
   form,
   refs,
   userFullAddress,

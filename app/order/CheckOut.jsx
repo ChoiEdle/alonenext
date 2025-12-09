@@ -10,7 +10,7 @@ import PayButton from "features/order/components/PayButton";
 
 import useCheckOutData from "features/order/hooks/useCheckOutData";
 
-export function CheckOut() {
+export default function CheckOut() {
 
     const checkout = useCheckOutData();
 

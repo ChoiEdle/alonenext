@@ -1,4 +1,4 @@
-export function SignupName({ form, refs, handleChangeForm }) {
+export default function SignupName({ form, refs, handleChangeForm }) {
   return (
     <li>
       <ul className="part name">

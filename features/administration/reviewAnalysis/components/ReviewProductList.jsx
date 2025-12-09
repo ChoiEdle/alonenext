@@ -1,7 +1,7 @@
 // features/review/components/ReviewProductList.jsx
 import Link from "next/link";
 
-export function ReviewProductList({ filtered }) {
+export default function ReviewProductList({ filtered }) {
   return (
     <div className="product-list">
       {filtered.map((item) => (

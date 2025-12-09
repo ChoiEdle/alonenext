@@ -1,7 +1,7 @@
 import React from "react";
 import "./SlideDots.scss";
 
-export function SlideDots({ activeIndex, count, setIndex, icon }) {
+export default function SlideDots({ activeIndex, count, setIndex, icon }) {
   return (
     <div className="slide-dots">
       {Array.from({ length: count }).map((_, i) => (

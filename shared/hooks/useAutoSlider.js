@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
-export function useAutoSlider(length, delay) {
+export default function useAutoSlider(length, delay) {
   const [index, setIndex] = useState(0);
   const intervalRef = useRef(null);
 
